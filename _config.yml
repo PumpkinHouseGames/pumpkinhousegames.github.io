@@ -6,9 +6,8 @@ plugins:
   - jekyll-remote-theme
   - jemoji
 
-# Theming
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Logos and such
 logo: "/assets/images/icon.webp"
@@ -27,12 +26,6 @@ locale: "en-US"
 twitter:
   username: "pumpkinhousegms"
   card: summary
-
-
-
-# Build settings
-plugins:
-  - jekyll-feed
 
 
 include:

@@ -1,6 +1,11 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
+# gem "rails"
 
+# For website building :)
+# https://jekyllrb.com/docs/step-by-step/01-setup/
 gem "jekyll"
 gem "jekyll-remote-theme"
 
@@ -13,6 +18,4 @@ group :jekyll_plugins do
   gem 'github-pages'
   gem 'jemoji'
 end
-
-gem 'faraday-retry', '~> 2.2'
-gem "webrick" , "~> 1.8"
+gem "webrick", "~> 1.8"
