@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "webrick"
+
 gem "jekyll"
 gem "jekyll-remote-theme"
 
@@ -14,3 +14,4 @@ group :jekyll_plugins do
   gem 'jemoji'
 end
 
+gem "webrick" , "~> 1.8"
