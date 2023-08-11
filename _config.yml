@@ -1,0 +1,49 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jemoji
+
+# Theming
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
+
+# Logos and such
+logo: "/assets/images/icon.webp"
+og_image: /assets/images/icon.webp
+
+title: Pumpkin House Games
+description: >- # this means to ignore newlines until "baseurl:"
+  Pumpkin house games is a group of passionate gamers who love to create the games they would want to play themselves.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://pumpkinhousegames.com" 
+
+# SEO
+tagline: Pumpkin House Games is a group of passionate gamers who love to create the games they would want to play themselves.
+locale: "en-US"
+
+twitter:
+  username: "pumpkinhousegms"
+  card: summary
+
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+
+include:
+  - _pages
+
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
