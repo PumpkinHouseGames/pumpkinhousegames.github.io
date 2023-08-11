@@ -3,7 +3,6 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "jekyll-remote-theme"
-gem "minimal-mistakes-jekyll"
 
 # Plugins https://jekyllrb.com/docs/step-by-step/10-deployment/
 group :jekyll_plugins do
@@ -15,4 +14,5 @@ group :jekyll_plugins do
   gem 'jemoji'
 end
 
+gem 'faraday-retry', '~> 2.2'
 gem "webrick" , "~> 1.8"
