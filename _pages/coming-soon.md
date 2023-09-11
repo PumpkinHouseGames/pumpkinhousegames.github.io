@@ -8,7 +8,7 @@ layout: blank
 
 html
 {
-    background: #81bffb;
+  /*background: #81lbffb;*/
 }
 #main-content
 {
@@ -22,7 +22,6 @@ html
 @media screen and (min-width: 601px) {
   h1{
     font-family: Eurofurence;
-    color: #181818;
     font-weight: bold;
     text-align: center;
     
@@ -37,7 +36,6 @@ html
 @media screen and (max-width: 600px) {
   h1 {
     font-family: Eurofurence;
-    color: #181818;
     font-weight: bold;
     text-align: center;
     
