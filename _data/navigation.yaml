@@ -1,8 +1,6 @@
 main:
   - title: Home
     url: /home
-  - title: Games
-    url: /games
   - title: Blog
     url: /blog
   - title: Our Team

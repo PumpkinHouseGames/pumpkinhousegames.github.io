@@ -12,4 +12,6 @@ We're a small indie game studio that started out as a couple of college friends 
 Although our team has since graduated college, we still love making games together and sharing our experiences along the way. The games we create value your intelligence, while also aiming to create approachable and engaging experiences with loads of exploration and strategic depth.
 <br>
 <br>
+
 # Our Games
+{% include game-gallery.html %}

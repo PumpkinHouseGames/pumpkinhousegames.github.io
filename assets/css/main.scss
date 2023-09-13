@@ -10,5 +10,8 @@ $background-color: #f1be89;
 $text-color: #1a1a1a;
 $link-color: #431e40;
 $primary-color: $link-color;
+$footer-background-color : #f99e55;
+$muted-text-color : #242020;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
