@@ -42,6 +42,9 @@ footer:
     - label: Twitter
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/pumpkinhousegms"
+    - label: Itch.io
+      icon: "fab fa-brands fa-itch-io"
+      url: "https://pumpkinhousegames.itch.io"
     - label: "TikTok"
       icon: "fab fa-brands fa-tiktok"
       url: https://www.tiktok.com/@pumpkin.house.games
