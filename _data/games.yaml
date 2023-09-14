@@ -1,24 +1,29 @@
-- wander-vyrosa:
+wander-vyrosa:
     title: Wander Vyrosa
     platforms: Steam
-    thumb: assets/images/wander-vyrosa/vyrosa-thumb.png
+    thumb: 
+        src: assets/images/wander-vyrosa/vyrosa-thumb.png
+        alt: "A planet with Wander Vyrosa showing in front of it"
     purchase-link: https://wandervyrosa.com
     project-link: /games/wander-vyrosa
     banner-image-src: ""
 
-- grill-daddy:
+grill-daddy:
     title: Grill Daddy
-    platforms: Steam
-    thumb: assets/images/wander-vyrosa/vyrosa-thumb.png
+    platforms: Itch.io (PC)
+    thumb: 
+        src: assets/images/wander-vyrosa/vyrosa-thumb.png
+        alt: "A planet with Wander Vyrosa showing in front of it"
     purchase-link: https://wandervyrosa.com
     project-link: /games/wander-vyrosa
     banner-image-src: ""
 
-- grill-daddy:
-    title: Grill Daddy
-    platforms: Steam
-    thumb: assets/images/wander-vyrosa/vyrosa-thumb.png
+slime:
+    title: S.L.I.M.E
+    platforms: Steam (PC)
+    thumb: 
+        src: assets/images/wander-vyrosa/vyrosa-thumb.png
+        alt: "A planet with Wander Vyrosa showing in front of it"
     purchase-link: https://wandervyrosa.com
     project-link: /games/wander-vyrosa
     banner-image-src: ""
-

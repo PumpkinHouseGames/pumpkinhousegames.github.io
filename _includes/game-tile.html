@@ -1,3 +1,6 @@
 <div class="game-tile">
-
+    {% assign game-data = site.data.games[include.id] %}
+    <a href="{{game-data.project-link}}">
+        <img src="{{game-data.thumb.src}}" alt="{{game-data.thumb.alt}}"/>
+    </a>
 </div>

@@ -1,29 +1,36 @@
-
-<script type="module">
-    import 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js';
-
-    // Built with Splide
-    // https://splidejs.com/
-    new Splide( '#splide-{{include.title-id}}',{
-        type  : 'loop',
-        speed : 600,
-    }).mount();
-    
-</script>
-<link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-
 <style>
-.game-gallery
+.game-tile
 {
-    display: flex;
+    display: block;
+    text-align: center;
+    padding: 20px 50px;
 }
 
-.game-thumb
+.two-wide
 {
-    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width: 600px)
+{
+    .two-wide
+    {
+        display:grid;
+        grid-template-columns: auto;
+    }
+    
 }
 
 </style>
 <div class="game-gallery">
+        <div>
+            {% include game-tile.html id="wander-vyrosa" %}
+        </div>
+       
+        <div class="two-wide">
+            {% include game-tile.html id="grill-daddy" %}
+            {% include game-tile.html id="grill-daddy" %}
+        </div>
+        
 
 </div>

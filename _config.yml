@@ -11,21 +11,47 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Logos and such
 logo: "/assets/images/icon.webp"
+# This is what get shown on social media embed
 og_image: /assets/images/icon.webp
 
 title: Pumpkin House Games
 description: >- # this means to ignore newlines until "baseurl:"
-  Pumpkin house games is a group of passionate gamers who love to create the games they would want to play themselves.
+  Pumpkin House Games is an indie game studio creating approachable games that value your intelligence while providing loads of discovery and strategic depth.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pumpkinhousegames.com" 
 
 # SEO
-tagline: Pumpkin House Games is a group of passionate gamers who love to create the games they would want to play themselves.
+tagline: Pumpkin House Games is an indie game studio creating approachable games that value your intelligence while providing loads of discovery and strategic depth.
 locale: "en-US"
 
 twitter:
   username: "pumpkinhousegms"
   card: summary
+
+social:
+  type: Organization
+  name: "Pumpkin House Games"
+  links:
+    - "https://twitter.com/pumpkinhousegms"
+    - "https://instagram.com/pumpkinhousegames"
+    -  https://www.tiktok.com/@pumpkin.house.games
+
+# Footer
+footer:
+  links:
+    - label: Twitter
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/pumpkinhousegms"
+    - label: "TikTok"
+      icon: "fab fa-brands fa-tiktok"
+      url: https://www.tiktok.com/@pumpkin.house.games
+    - label: Instagram
+      icon: "fab fa-brands fa-instagram"
+      url: "https://instagram.com/pumpkinhousegames"
+
+# Hide RSS feed in the footer
+atom_feed:
+  hide: true
 
 
 include:
